@@ -3,7 +3,7 @@ import Card from "./Card";
 
 
 interface Props {
-    variable?: any
+    variable: any
 }
 
 

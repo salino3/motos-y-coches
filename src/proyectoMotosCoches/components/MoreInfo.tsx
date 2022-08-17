@@ -11,7 +11,7 @@ interface Props {
 
 
 
-const InfoAutoOnly = () => {
+const MoreInfo = () => {
 
     const {id}  = useParams<any>();
 // const auto = getTipoVehiculo(id);
@@ -34,4 +34,4 @@ const InfoAutoOnly = () => {
   );
 }
 
-export default InfoAutoOnly
+export default MoreInfo;

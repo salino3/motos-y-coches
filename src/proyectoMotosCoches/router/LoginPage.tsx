@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
 import AutoOnly from '../components/AutoOnly';
-import InfoAutoOnly from '../components/InfoAutoOnly';
+import MoreInfo from "../components/MoreInfo";
 import MotoOnly from '../components/MotoOnly';
 import SegundoComponente from '../components/SegundoComponente';
 import ShowAll from '../components/ShowAll';
@@ -17,7 +17,7 @@ const LoginPage = () => {
         <Route path="showall" element={<ShowAll />} />
         <Route path="motos" element={<MotoOnly />} />
         <Route path="autos" element={<AutoOnly variable={"coche"} />} />
-          <Route path="card/:id" element={<InfoAutoOnly />} />
+        <Route path="card/:id" element={<MoreInfo />} />
       </Routes>
     </>
   );
