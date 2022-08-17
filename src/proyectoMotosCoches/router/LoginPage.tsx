@@ -17,7 +17,7 @@ const LoginPage = () => {
         <Route path="showall" element={<ShowAll />} />
         <Route path="motos" element={<MotoOnly />} />
         <Route path="autos" element={<AutoOnly variable={"coche"} />} />
-        <Route path="card/:id" element={<MoreInfo />} />
+        <Route path="/card/:id" element={<MoreInfo />} />
       </Routes>
     </>
   );
